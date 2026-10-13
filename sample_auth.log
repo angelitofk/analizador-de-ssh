@@ -1,0 +1,31 @@
+Oct 13 08:02:11 server sshd[1000]: Accepted password for florentino from 192.168.1.10 port 40022 ssh2
+Oct 13 08:02:11 server sshd[1007]: pam_unix(sshd:session): session opened for user florentino(uid=1000) by (uid=0)
+Oct 13 09:41:03 server sshd[1014]: Failed password for florentino from 192.168.1.10 port 40310 ssh2
+Oct 13 09:41:09 server sshd[1021]: Accepted password for florentino from 192.168.1.10 port 40312 ssh2
+Oct 13 10:15:10 server sshd[1028]: Failed password for root from 203.0.113.45 port 51500 ssh2
+Oct 13 10:15:14 server sshd[1035]: Failed password for admin from 203.0.113.45 port 51501 ssh2
+Oct 13 10:15:18 server sshd[1042]: Failed password for invalid user test from 203.0.113.45 port 51502 ssh2
+Oct 13 10:15:22 server sshd[1049]: Failed password for invalid user oracle from 203.0.113.45 port 51503 ssh2
+Oct 13 10:15:26 server sshd[1056]: Failed password for root from 203.0.113.45 port 51504 ssh2
+Oct 13 10:15:30 server sshd[1063]: Failed password for invalid user ubuntu from 203.0.113.45 port 51505 ssh2
+Oct 13 10:15:34 server sshd[1070]: Failed password for admin from 203.0.113.45 port 51506 ssh2
+Oct 13 10:15:38 server sshd[1077]: Failed password for invalid user postgres from 203.0.113.45 port 51507 ssh2
+Oct 13 10:15:42 server sshd[1084]: Failed password for root from 203.0.113.45 port 51508 ssh2
+Oct 13 10:15:46 server sshd[1091]: Failed password for invalid user guest from 203.0.113.45 port 51509 ssh2
+Oct 13 10:15:50 server sshd[1098]: Failed password for invalid user user from 203.0.113.45 port 51510 ssh2
+Oct 13 10:15:54 server sshd[1105]: Failed password for root from 203.0.113.45 port 51511 ssh2
+Oct 13 10:16:20 server sshd[1112]: Connection closed by authenticating user root 203.0.113.45 port 51520 [preauth]
+Oct 13 11:30:05 server sshd[1119]: Failed password for admin from 198.51.100.23 port 42100 ssh2
+Oct 13 11:30:11 server sshd[1126]: Failed password for admin from 198.51.100.23 port 42101 ssh2
+Oct 13 11:30:17 server sshd[1133]: Failed password for invalid user deploy from 198.51.100.23 port 42102 ssh2
+Oct 13 11:30:23 server sshd[1140]: Failed password for root from 198.51.100.23 port 42103 ssh2
+Oct 13 11:30:29 server sshd[1147]: Failed password for florentino from 198.51.100.23 port 42104 ssh2
+Oct 13 11:30:35 server sshd[1154]: Failed password for florentino from 198.51.100.23 port 42105 ssh2
+Oct 13 11:30:41 server sshd[1161]: Failed password for admin from 198.51.100.23 port 42106 ssh2
+Oct 13 11:31:02 server sshd[1168]: Accepted password for florentino from 198.51.100.23 port 42110 ssh2
+Oct 13 12:05:40 server sshd[1175]: Failed password for invalid user pi from 192.0.2.77 port 33001 ssh2
+Oct 13 12:05:48 server sshd[1182]: Failed password for invalid user pi from 192.0.2.77 port 33005 ssh2
+Oct 13 13:20:15 server sshd[1189]: Invalid user ftpuser from 192.0.2.99 port 60001
+Oct 13 13:20:17 server sshd[1196]: Failed password for invalid user ftpuser from 192.0.2.99 port 60001 ssh2
+Oct 13 14:00:01 server sshd[1203]: Server listening on 0.0.0.0 port 22.
+Oct 13 15:44:30 server sshd[1210]: Accepted publickey for florentino from 192.168.1.10 port 40500 ssh2
