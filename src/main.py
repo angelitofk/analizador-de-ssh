@@ -1,5 +1,6 @@
 import re
 import os
+from collections import Counter
 patron = re.compile (r"Failed password for (?:invalid user )?(\S+) from (\d+\.\d+\.\d+\.\d+)"
 )
 ruta="data/sample_auth.log"
@@ -16,9 +17,25 @@ def lectura_fallos(ruta):
     else:
         print("El archivo log no existe")   
 
-def mostrar(ruta):
-    for usuario, ip in lectura_fallos(ruta):
-        print(usuario, ip)
+    return fallos
+
+def contador_ip(vec):
+
+    return Counter(i[1] for i in vec)
+    
+
+def mostrar_recientes(conteo,cant=5):
+    print(f"--- ALERTA DE LOS ULTIMOS {cant} CON MAS ACCESOS ---")
+    for x, y in conteo.most_common(cant):     
+        print(f"IP: {x} | Intentos: {y}")
+
+
+def mostrar(fallos):  
+    for usuario, ip in fallos:
+        print(f"Usuario: {usuario:<12} | IP: {ip:<15}")
+
 
 if __name__ == "__main__":
-    mostrar(ruta)
+    fallos=lectura_fallos(ruta)
+    mostrar(fallos)
+    mostrar_recientes(contador_ip(fallos))
